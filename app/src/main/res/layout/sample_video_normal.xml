@@ -92,13 +92,13 @@
         android:layout_marginTop="6dp"
         android:visibility="gone" />
 
-    <moe.codeest.enviews.ENDownloadView
+   <!-- <moe.codeest.enviews.ENDownloadView
         android:id="@+id/loading"
         android:layout_width="28dp"
         android:layout_height="28dp"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:visibility="invisible" />
+        android:visibility="invisible" />-->
 
     <moe.codeest.enviews.ENPlayView
         android:id="@+id/start"

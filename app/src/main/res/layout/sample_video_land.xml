@@ -8,8 +8,7 @@
         android:id="@+id/surface_container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:gravity="center">
-    </FrameLayout>
+        android:gravity="center"></FrameLayout>
 
     <RelativeLayout
         android:id="@+id/thumb"
@@ -38,11 +37,11 @@
             android:id="@+id/start"
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:src="@drawable/video_click_play_selector"
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
             android:layout_gravity="center_vertical"
-            android:layout_marginLeft="10dp" />
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/video_click_play_selector" />
 
         <TextView
             android:id="@+id/current"
@@ -101,13 +100,13 @@
         android:layout_marginTop="6dp"
         android:visibility="gone" />
 
-    <moe.codeest.enviews.ENDownloadView
+   <!-- <moe.codeest.enviews.ENDownloadView
         android:id="@+id/loading"
         android:layout_width="28dp"
         android:layout_height="28dp"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:visibility="invisible" />
+        android:visibility="invisible" />-->
 
 
     <ImageView

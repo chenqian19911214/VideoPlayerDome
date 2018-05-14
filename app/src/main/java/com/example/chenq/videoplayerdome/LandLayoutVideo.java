@@ -27,6 +27,7 @@ public class LandLayoutVideo extends StandardGSYVideoPlayer {
     }
 
 
+
     //这个必须配置最上面的构造才能生效
     @Override
     public int getLayoutId() {
@@ -35,6 +36,18 @@ public class LandLayoutVideo extends StandardGSYVideoPlayer {
         }
         return R.layout.sample_video_normal;
     }
+
+
+    @Override
+    protected void showBrightnessDialog(float percent) {
+        super.showBrightnessDialog(percent);
+    }
+
+    @Override
+    protected void dismissBrightnessDialog() {
+        super.dismissBrightnessDialog();
+    }
+
 
     @Override
     protected void updateStartImage() {
